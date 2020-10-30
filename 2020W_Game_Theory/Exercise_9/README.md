@@ -20,3 +20,7 @@ Following optional parameter are possible:
 **--max**: Payoff matrix maximum values, default is 100
 
 This means `python NashEquilibriumMatrix.py --run 33 --a 10 --b 8 --min 5 --max 22` will create a 10x8 payoff matrix filled with values between 5 and 22 and runs 33 time.
+
+**Result**
+
+If run with the default values (5x5 matrix, 100 times, random values between 0 and 100), it seems that in around 25% of the cases no Nash-Equilibrium was found, in around 50% of the cases one Nash-Equilibrium was found, and in around 25% of the cases more than one Nash-Equilibrium was found.

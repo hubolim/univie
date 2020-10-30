@@ -2,7 +2,7 @@
 
 **Task**
 
-Schreiben Sie ein Programm zur Bestimmung von Nash-Gleichgewichten für eine Auszahlungsmatrix mit 5 Zeilen und 5 Spalten. Füllen Sie die Matrix 100mal mit Zufallszahlen, und ermitteln Sie die relative Häufigkeit der Fälle, wo (a) kein NashGleichgewicht existiert, (b) genau ein Nash-Gleichgewicht existiert, (c) mehr als ein Nash-Gleichgewicht existiert.
+Schreiben Sie ein Programm zur Bestimmung von Nash-Gleichgewichten fÃ¼r eine Auszahlungsmatrix mit 5 Zeilen und 5 Spalten. FÃ¼llen Sie die Matrix 100mal mit Zufallszahlen, und ermitteln Sie die relative HÃ¤ufigkeit der FÃ¤lle, wo (a) kein NashGleichgewicht existiert, (b) genau ein Nash-Gleichgewicht existiert, (c) mehr als ein Nash-Gleichgewicht existiert.
 
 **Implementation and Prerequisites**
 
@@ -14,9 +14,9 @@ The Script can be started over a command line with `python NashEquilibriumMatrix
 
 Following optional parameter are possible:
 **--run**: Number of runs, default is 100
-**--a**: Number of stratey choice for A, default is 5
-**--b**: Number of stratey choice for B, default is 5
+**--a**: Number of strategy choices for A, default is 5
+**--b**: Number of strategy choices for B, default is 5
 **--min**: Payoff matrix minimum values, default is 0
 **--max**: Payoff matrix maximum values, default is 100
 
-This means `python NashEquilibriumMatrix.py --run 33 --a 10 --b 8 --min 5 --max 22` will create 10x8 payoff matrix filled with values between 5 and 22 and runs 33 time.
+This means `python NashEquilibriumMatrix.py --run 33 --a 10 --b 8 --min 5 --max 22` will create a 10x8 payoff matrix filled with values between 5 and 22 and runs 33 time.

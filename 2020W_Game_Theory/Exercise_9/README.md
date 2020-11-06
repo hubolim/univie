@@ -6,7 +6,9 @@ Schreiben Sie ein Programm zur Bestimmung von Nash-Gleichgewichten für eine Aus
 
 **Implementation and Prerequisites**
 
-The Exercise was implemented using python 3.7.4. At least this python version must be available and set up on the system. It will generate a random payoff matrix and identify all Nash-Equilibriums. This is repeated a specific amount of times and the final results calcucalated - how often no Nash-Equilibrium was found, how often one Nash-Equilibrium was found, and how often more than one Nash-Equilibrium was found. The results are exported in log files with the naming *YYYYmmDDHHMMSS-NashEquilibrium.log*. All randomly created payoff matrix and their Nash Equilibriums are exported and the final counts at the bottom of the file.
+The Exercise was implemented using python 3.7.4. At least this python version must be available and set up on the system. Furthermore, the python libraries `pandas` and `numpy` must be installed. (Easily done with `pip install pandas` and `pip install numpy` for example.)
+
+It will generate a random payoff matrix and identify all Nash-Equilibriums. This is repeated a specific amount of times and the final results calcucalated - how often no Nash-Equilibrium was found, how often one Nash-Equilibrium was found, and how often more than one Nash-Equilibrium was found. The results are exported in log files with the naming *YYYYmmDDHHMMSS-NashEquilibrium.log*. All randomly created payoff matrix and their Nash Equilibriums are exported and the final counts at the bottom of the file.
 
 **How to run**
 
